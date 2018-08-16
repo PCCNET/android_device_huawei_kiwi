@@ -130,9 +130,6 @@ PRODUCT_PACKAGES += \
     libshim_libloc \
     libshim_flp
 
-# Dalvik
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \

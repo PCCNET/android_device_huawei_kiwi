@@ -567,9 +567,6 @@ bin/teecd:vendor/bin/teecd
 lib64/libteec.so:vendor/lib64/libteec.so
 
 # Thermal
-vendor/bin/thermal-engine|17a970c495eeff86c457ae4fd7ca067ba5536bd5
-vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalioctl.so
 vendor/lib/libthermalclient.so
 
 # Time services

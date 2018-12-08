@@ -240,4 +240,8 @@
          should also be hidden if intended to be permanent. -->
     <item name="config_appTransitionAnimationDurationScaleDefault" format="float" type="dimen">0</item>
     <bool name="config_disableTransitionAnimation">true</bool>
+
+    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
+	     autodetected from the Configuration. -->
+	<bool name="config_showNavigationBar">true</bool>
 </resources>
